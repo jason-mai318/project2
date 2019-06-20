@@ -1,0 +1,44 @@
+#welcome-screen {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+#Welcome-screen-frame {
+  width: 50vw;
+  height: 50vh;
+  background-color: blue;
+  margin: 25%;
+}
+#welcome-screen-text {
+  font-size: 10vh;
+}
+#name-input {
+  font-size: 5vh;
+}
+
+@keyframes welcome-screen-go-up {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: -100vh;
+  }
+}
+@keyframes hello-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.jumbotron {
+  text-align: center;
+  overflow: hidden;
+}

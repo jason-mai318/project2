@@ -2,16 +2,34 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" charset="utf-8"></script>
+
     <title></title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="welcome-screen">
+      <div id="welcome-screen-frame">
+        <p id="welcome-screen-text">may i hav ur name pls.</p>
+        <span id="name-input">
+          Name:
+          <input type="text" id="myText" name="fname" value="Jason"/><button
+            onclick="myFunction()"
+          >
+            Submit
+          </button>
+          <p id="demo"></p
+        ></span>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="#">Navbar</a>
       <button
         class="navbar-toggler"
@@ -42,15 +60,10 @@
       </div>
     </nav>
     <div class="jumbotron">
-      <h1 class="display-4">Welcome!</h1>
-      <p class="lead">
-        This is an example website created using some bootstrap components.
-      </p>
+      <h1 id="display-4">Welcome!</h1>
+      <p class="lead">I HAVE NO IDEA ABOUT WHAT I'M DOING.</p>
       <hr class="my-4" />
-      <p>
-        It uses utility classes for typography and spacing to space content out
-        within the larger container.
-      </p>
+      <p>huh</p>
       <a class="btn btn-primary btn-lg" href="#" role="button">A Button.</a>
     </div>
   </body>
