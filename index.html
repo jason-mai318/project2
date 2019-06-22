@@ -18,18 +18,22 @@
     <div id="welcome-screen">
       <div id="welcome-screen-frame">
         <p id="welcome-screen-text">may i hav ur name pls.</p>
-        <span id="name-input">
-          Name:
+        <div id="name-input">
           <input
-            onfocus="this.value=''"
-            type="text"
             id="myText"
+            onfocus=this.value=''
+            type="text"
             name="fname"
-            value="Enter your name here"/><button onclick="myFunction()">
-            Submit
-          </button>
-          <p id="demo"></p
-        ></span>
+            value="Enter your name here"
+          />
+          <button onclick="submitName()" id="name-submit">Submit</button
+          >
+        </div>
+        <div id="name-buttons">
+      <button onclick="skipName()" id="skip-name-submit">
+          Enter as a guest.
+        </button>
+      </div>
       </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">

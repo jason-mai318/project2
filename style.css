@@ -11,22 +11,52 @@
 #Welcome-screen-frame {
   width: 50vw;
   height: 50vh;
-  background-color: blue;
+  background-color: black;
   margin: 25%;
 }
 #welcome-screen-text {
   font-size: 10vh;
+  text-align: center;
 }
 #name-input {
+  display: flex;
   font-size: 5vh;
 }
+#name-submit{
+  border-radius: 10%;
+  box-shadow: 0 5px #999;
+  background-color: rgb(150,255,150);
+}
+#name-submit:hover {
+  background-color: rgb(100,255,100);
+  box-shadow: 0 5px #888;
+  transform: translateY(2px);
+}
+#name-submit:active {
+  background-color: rgb(100,255,100);
+  box-shadow: 0 5px #888;
+  transform: translateY(4px);
+}
+#name-buttons{
+  margin-top: 1vh;
+  font-size: 3vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 #myText {
+  color: rgba(75, 75, 75, 0.7);
   background-color: lightblue;
   border: none;
   border-bottom: 5px solid black;
+  width: 100%;
+  text-align: center;
+}
+#myText:hover {
+  color: rgba(75, 75, 75, 0.5);
 }
 #myText:focus {
-  /* border: 3px solid #555; */
+  color: rgba(0, 0, 0, 1);
 }
 @keyframes welcome-screen-go-up {
   from {
