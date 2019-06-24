@@ -8,6 +8,10 @@ window.onload = function() {
     }
   });
 };
+//scroll back up on refresh
+$(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
+});
 //Ask for name input
 function submitName() {
   var name = document.getElementById("myText").value;
