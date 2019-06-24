@@ -42,9 +42,7 @@ function runIntro(name) {
   welcome_text.style.animationFillMode = "forwards";
   welcome_text.innerText = "Hello" + name + "!";
   document.getElementById("display-4").innerHTML = "Welcome" + name + "!";
-  setTimeout(function() {
-    document.body.style.overflow = "auto";
-  }, 4000);
+  document.body.style.overflow = "auto";
 }
 //carousel
 var slideIndex = 1;

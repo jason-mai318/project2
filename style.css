@@ -2,8 +2,8 @@ body {
   overflow: hidden;
 }
 .daBody{
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 #welcome-screen {
   position: absolute;
